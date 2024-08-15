@@ -26,7 +26,7 @@ const Conteudo = styled.div`
   padding: 20px;
   background: rgba(255, 255, 255, 1);
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 16px 8px rgba(0, 0, 0, 0.2);
   position: relative;
 `;
 
@@ -59,7 +59,7 @@ const TimerItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
+  background: #993399;
   color: white;
   padding: 15px;
   border-radius: 4px;
@@ -76,7 +76,7 @@ const TimerLabel = styled.div`
 
 export function New_Modal() {
 
-const dateString = "July 29, 2024 23:59:00";
+const dateString = "October 01, 2024 23:59:59";
 const timestamp = new Date(dateString).getTime();
 const [day, hour, minute, second] = Logicatrue(timestamp);
 
