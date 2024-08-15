@@ -1,0 +1,15 @@
+:root {
+  --background-image: url('./assets/Info_jr.png');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: var(--background-image);
+  background-repeat: initial; 
+  background-size: cover;
+}
